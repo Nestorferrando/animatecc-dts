@@ -1,24 +1,26 @@
 {
-  "name": "createjs-def",
+  "name": "animatecc-dts",
   "version": "0.3.0",
-  "description": "CreateJS Toolkit definitions generator",
+  "description": "Toolkit to generate TypeScript type definitions from Adobe Animate HTML5 export.",
   "bin": {
-    "createjs-def": "bin/createjs-def"
+    "createjs-def": "bin/animatecc-dts"
   },
   "main": "./lib/index",
   "repository": {
     "type": "git",
-    "url": "http://github.com/elsassph/createjs-def.git"
+    "url": "http://github.com/GoodgameStudios/animatecc-dts.git"
   },
   "keywords": [
     "createjs",
-    "typescript",
-    "haxe"
+    "typescript"
   ],
   "author": {
     "name": "Philippe Elsass"
   },
+  "contributors": ["Endel Dreyer"],
   "license": "MIT",
-  "readme": "Generate definition files for various languages from Flash Professional's CreateJS Toolkit's generated JavaScript library.",
-  "readmeFilename": "README.md"
+  "dependencies": {
+    "glob": "^7.0.6",
+    "minimist": "^1.2.0"
+  }
 }
