@@ -1,9 +1,9 @@
 {
   "name": "animatecc-dts",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Toolkit to generate TypeScript type definitions from Adobe Animate HTML5 export.",
   "bin": {
-    "createjs-def": "bin/animatecc-dts"
+    "animatecc-dts": "bin/animatecc-dts"
   },
   "main": "./lib/index",
   "repository": {
@@ -12,6 +12,8 @@
   },
   "keywords": [
     "createjs",
+    "flash",
+    "animate",
     "typescript"
   ],
   "author": {
